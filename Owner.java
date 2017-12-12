@@ -1,18 +1,14 @@
 class Owner {
 
     String name;
-    Dog dog; 
+    Animal animal; 
       
-    Owner(String n, Dog d){  
+    Owner(String n, Animal a) {  
         name = n;  
-        dog = d;  
+        animal = a;  
     }  
 
-    public void myDogBarks() {
-        dog.bark();
-    }  
-
-    public void seyHi() {
-        System.out.println("Hi!");   
-    }  
+    public void myAnimalMakesSound() {
+        animal.makeSound();
+    }   
 }

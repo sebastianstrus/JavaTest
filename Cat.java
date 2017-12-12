@@ -1,14 +1,14 @@
-public class Dog implements Animal {
+public class Cat implements Animal {
 
     String name;
 
-    Dog(String n){  
+    Cat(String n){  
         name = n;  
     } 
 
     @Override
     public void makeSound() {
-         System.out.println("Woof woof!");    
+         System.out.println("Meeow!");    
     };
     
 }

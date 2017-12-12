@@ -5,6 +5,6 @@ public class App {
         Animal dog = new Dog("Max");
 
         Owner sebastian = new Owner("Sebastian", dog);
-        sebastian.myDogBarks();
+        sebastian.myAnimalMakesSound();
     }
 }
