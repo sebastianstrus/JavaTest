@@ -1,11 +1,13 @@
 public class Dog implements Animal {
 
-    public void sayHi() {
-         System.out.println("Woof!");    
-    };
+    String name;
+
+    Dog(String n){  
+        name = n;  
+    } 
 
     @Override
-    public void sayHello() {
+    public void bark() {
          System.out.println("Woof woof!");    
     };
     

@@ -1,3 +1,3 @@
 public interface Animal {
-    public void sayHello();
+    public void bark();
 }
